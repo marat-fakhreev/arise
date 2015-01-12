@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title ARISE
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=0.8, maximum-scale=0.8')
+    link(rel="stylesheet" href="application.css")
+    | <!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+  body
+    video(autoplay, loop, poster="../images/background.jpg", id='video')
+      source(src="ClipExtendedForWeb.mp4", type="video/mp4")
+
+    section.content
+      svg(height="100%" width="30%")
+        line(x1="0" y1="100%" x2="100%" y2="0")
+      svg(height="100%" width="30%")
+        line(x1="0" y1="100%" x2="100%" y2="0")
+
+      .logo
+
+      .links
+        .links-list
+          ul
+            li
+              a(href="#", target="_blank") our works
+            li
+              a(href="#", target="_blank") write us
